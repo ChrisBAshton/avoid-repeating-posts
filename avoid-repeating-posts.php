@@ -7,18 +7,18 @@
  * Author URI: https://twitter.com/ChrisBAshton
  */
 
- add_filter('the_title', 'track_displayed_posts');
- add_action('pre_get_posts','remove_already_displayed_posts');
+ add_filter('the_title', 'arposts__track_displayed_posts');
+ add_action('pre_get_posts','arposts__remove_already_displayed_posts');
 
  $displayed_posts = [];
 
- function track_displayed_posts($title) {
+ function arposts__track_displayed_posts($title) {
      global $displayed_posts;
      $displayed_posts[] = get_the_ID();
      return $title; // don't mess with the title
  }
 
- function remove_already_displayed_posts($query) {
+ function arposts__remove_already_displayed_posts($query) {
     global $displayed_posts;
     $query->set('post__not_in', $displayed_posts);
  }
