@@ -1,4 +1,4 @@
-=== Secretary ===
+=== Avoid Repeating Posts ===
 Contributors: ChrisBAshton
 Donate link: https://twitter.com/ChrisBAshton
 Tags: avoid duplicate, avoid multiple, avoid repeating, avoid displaying, don't repeat
