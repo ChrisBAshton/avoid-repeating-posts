@@ -2,7 +2,7 @@
 Contributors: ChrisBAshton
 Donate link: https://twitter.com/ChrisBAshton
 Tags: avoid duplicate, avoid multiple, avoid repeating, avoid displaying, don't repeat
-Tested up to: 4.8
+Tested up to: 5.9
 Stable tag: trunk
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -24,7 +24,10 @@ Avoid Repeating Posts ensures that you show a wider variety of your content on t
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 =
+* Uses permalinks rather than title for detecting previously displayed posts (more reliable)
+
+= 1.0.0 =
 * Initial release
 
 == Contact ==
